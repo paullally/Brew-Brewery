@@ -41,3 +41,22 @@ html body {
 video {
     border:0;
 }
+.slogan {
+    text-align: center;
+    font-size: 50px;
+     padding:10% 10%;
+}
+.tester
+{
+    background-color: #93A8AC;
+}
+.slogan-filler2 {
+    font-size: 25px;
+    padding-bottom:10%;
+    text-align: center;
+}
+.slogan-filler {
+    font-size: 25px;
+    
+    text-align: center;
+}
