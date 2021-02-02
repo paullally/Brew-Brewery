@@ -1,5 +1,5 @@
 html body {
-    background-color: white;
+    background-color: #D7CEB2;
 }
 #nav {
     background-color:#66635B;
@@ -41,22 +41,28 @@ html body {
 video {
     border:0;
 }
-.slogan {
-    text-align: center;
-    font-size: 50px;
-     padding:10% 10%;
-}
-.tester
+.bg-main
 {
-    background-color: #93A8AC;
+    background-color: #D7CEB2;
 }
-.slogan-filler2 {
-    font-size: 25px;
-    padding-bottom:10%;
+.main-heading  {
     text-align: center;
+    background-color: #D7CEB2;
+    margin:5%
 }
-.slogan-filler {
+.filler {
     font-size: 25px;
-    
+    background-color: #D7CEB2 ;
+    margin:5%
+}
+.product-button {
+
+    font-size: 20px;
+    background-color: #93A8AC !important;
     text-align: center;
+    display: inline-block;
+
+}
+.container {
+    text-align: center;  
 }
