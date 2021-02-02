@@ -7,10 +7,12 @@ html body {
 .navbar-brand
 {
     font-size: 25px;
+    font-family: 'Exo', sans-serif;
 }
 .nav-item
 {
     font-size: 20px;
+    font-family: 'Exo', sans-serif;
     
 }
 .inline-block {
@@ -48,19 +50,22 @@ video {
 .main-heading  {
     text-align: center;
     background-color: #D7CEB2;
-    margin:5%
+    margin:5%;
+    font-family: 'Exo', sans-serif;
 }
 .filler {
     font-size: 25px;
     background-color: #D7CEB2 ;
-    margin:5%
+    margin:10%;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
 }
 .product-button {
 
     font-size: 20px;
-    background-color: #93A8AC !important;
-    text-align: center;
-    display: inline-block;
+    background-color: #93A8AC;
+    margin-bottom:100px;
+   
 
 }
 .container {
