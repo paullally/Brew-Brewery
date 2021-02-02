@@ -1,0 +1,18 @@
+/* navigation*/
+.nav-item {
+  font-size: 25px;
+  letter-spacing: 2px;
+  margin-left: 100%;
+}
+.navbar-brand {
+
+  font-size: 25px;
+  letter-spacing: 2px;
+}
+.navbar {
+    background-color: beige;
+}
+.hero {
+    height: 100%;
+    width: 100%;
+}
