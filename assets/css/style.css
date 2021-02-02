@@ -1,3 +1,9 @@
+html body {
+    background-color: white;
+}
+#nav {
+    background-color:#66635B;
+}
 .navbar-brand
 {
     font-size: 25px;
@@ -19,21 +25,19 @@
     font-size: 13px;
     line-height: 7px;
     text-align: center;
-    color: black;
-    background-color: grey;
+    color: #D7CEB2;
+    background-color:#4C5760;
 }
 .general-sub {
     color: #fafafa;
 }
 #footer-details {
-    background-color: black;
+    background-color: #66635B;
     padding: 20px;
-
-
-}
-.drink  {
-    color:white;
 }
 .drink  a{
-    color:grey;
+    color:white;
+}
+video {
+    border:0;
 }
