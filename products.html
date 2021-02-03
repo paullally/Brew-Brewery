@@ -12,6 +12,7 @@
 <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet">
 <!-- Material Design Bootstrap -->
 <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/css/mdb.min.css" rel="stylesheet">
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css">
      <link rel="stylesheet" href="assets/css/style.css">
     <title>Document</title>
 </head>
@@ -41,45 +42,20 @@
     <section>
 
                     <div class="row container-fluid">
-            
-        <div class="col-lg-3 col-md-12 col-s-12 ">
-                <img class="img-fluid" src="assets/images/1.png" alt="">
-        </div>
-        <div class="col-lg-3 col-md-12 col-s-12 ">
-
-                <img class="img-fluid"  src="assets/images/2.png" alt="">
-        </div>
-        <div class="col-lg-3 col-md-12 col-s-12  ">
-                <img class="img-fluid"  src="assets/images/3.png" alt="">
-        </div>
-        <div class="col-lg-3 col-md-12 col-s-12  ">
-                <img class="img-fluid"  src="assets/images/4.png" alt="">
-        </div>
         
-        <div class="col-lg-3 col-md-12 col-s-12">
-            
-                <img class="img-fluid" src="assets/images/5.png" alt="">
-            
-        </div>
-        <div class="col-lg-3 col-md-12 col-s-12 ">
-            
-                <img class="img-fluid" src="assets/images/6.png" alt="">
-            
-        </div>
-        <div class="col-lg-3 col-md-12 col-s-12 ">
-           
-                <img class="img-fluid" src="assets/images/7.png" alt="">
-            
-        </div>
-         <div class="col-lg-3 col-md-12 col-s-12 ">
-           
-                <img class="img-fluid" src="assets/images/8.png" alt="">
-        </div>
-        </div>
-            
-        
-
-                
+                <div class="col-lg-3 col-md-12 col-sm-12">
+				<div class="hovereffect">
+					<img class="img-fluid" src="assets/images/1.png" alt="sarrat">
+					<div class="overlay">
+						<h2>Beer Name</h2>
+						<p>
+							<button type="button" class=" btn btn-link mybtn">Learn more</button>
+						</p>
+					</div>
+				</div>
+			</div>
+      
+        </div>      
         
     </section>
    <footer class="container-fluid">
@@ -117,6 +93,36 @@
         </div>
     </footer>
 
+
+
+
+
+
+
+
+    <div id="myModal" class="modal">
+
+  <!-- Modal content -->
+  <div class="modal-content">
+    <div class="modal-header">
+      <span class="close">×</span>
+      <h2>Modal Header</h2>
+    </div>
+    <div class="modal-body">
+      <p>Some text in the Modal  1 Body</p>
+      <p>Some other 1 text...</p>
+    </div>
+    <div class="modal-footer">
+      <h3>Modal Footer</h3>
+    </div>
+  </div>
+
+</div>
+
+
+
+
+
  <!-- JQuery -->
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <!-- Bootstrap tooltips -->
@@ -125,6 +131,6 @@
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.min.js"></script>
 <!-- MDB core JavaScript -->
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/js/mdb.min.js"></script>
-    
+    <script src="script.js"></script>
 </body>
 </html>
