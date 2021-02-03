@@ -1,6 +1,28 @@
-html body {
-    background-color: silver;
+* {
+ box-sizing: border-box;
 }
+*:before,
+*:after {
+ box-sizing: border-box;
+}
+html,
+body {
+ height: 100%;
+ position: relative;
+}
+.main-container {
+ min-height: 100vh; /* will cover the 100% of viewport */
+ overflow: hidden;
+ display: block;
+ position: relative;
+ padding-bottom: 100px; /* height of your footer */
+}
+footer {
+ position: absolute;
+ bottom: 0;
+ width: 100%;
+}
+
 #nav {
     background-color:#66635B;
 }
@@ -254,7 +276,7 @@ button {
 
 .modal-header {
     padding: 2px 16px;
-    background-color: #5cb85c;
+    background-color: #03ff03;
     color: white;
 }
 
