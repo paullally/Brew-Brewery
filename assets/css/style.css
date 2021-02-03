@@ -1,5 +1,5 @@
 html body {
-    background-color: #D7CEB2;
+    background-color: silver;
 }
 #nav {
     background-color:#66635B;
@@ -68,6 +68,11 @@ video {
    
 
 }
-.container {
-    text-align: center;  
+.img-fluid {
+    
+
+    padding:20px;
+    height: 100%;
+    
 }
+
