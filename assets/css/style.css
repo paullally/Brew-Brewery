@@ -279,5 +279,7 @@ button {
     
 }
 
-.modal-body {padding: 25px 16px;}
+.modal-body {
+padding: 25px 16px;
+text-align: center;}
 
