@@ -261,7 +261,7 @@ button {
 
 /* The Close Button */
 .close {
-    color: white;
+    color: black;
     float: right;
     font-size: 28px;
     font-weight: bold;
@@ -275,9 +275,10 @@ button {
 }
 
 .modal-header {
-    padding: 2px 16px;
-    background-color: #03ff03;
-    color: white;
+    padding: 10px 16px;
+    border-bottom:1px solid black;
+    color: black;
+    
 }
 
 .modal-body {padding: 25px 16px;}
