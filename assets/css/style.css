@@ -268,3 +268,27 @@ text-align: center;
     text-align: center;
 }
 
+.heading
+{
+        font-weight: 400;
+    margin-bottom: 10%;
+    color:white;
+}
+
+.contact {
+  position: absolute;
+  font-size: 0.5rem;
+  opacity: 90%;
+  width: 100%;
+  bottom: 20%;
+}
+
+.center-form {
+  margin: 0 auto;
+  max-width: 70%;
+}
+.ch 
+{
+    font-size:20px;
+    color:white
+}
