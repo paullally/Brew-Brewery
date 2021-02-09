@@ -286,14 +286,9 @@ text-align: center;
   width: 100%;
   bottom: 50%;
 }
-
-label 
-{
-    color:white
-}
 .form-outline .form-control
 {
-    background-color: #D3D3D3;
+    background-color: #F5F5F5;
 
 }
 .form-outline .form-control~.form-label
@@ -314,4 +309,15 @@ input
 {
     color:black!important;
 
+}
+@media (max-width: 1024px) {
+
+.contact {
+    position: relative;
+
+  }
+  .contact-btn
+  {
+      font-size: 8px;
+  }
 }
