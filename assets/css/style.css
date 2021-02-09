@@ -271,26 +271,47 @@ text-align: center;
 .heading
 {
         font-weight: 400;
-    margin-bottom: 10%;
+    margin-bottom: 1%;
     color:white;
 }
 .subhead
 {
         font-weight: 400;
-    margin-bottom: 10%;
+   
     color:white;
 }
 
 .contact {
   position: absolute;
   width: 100%;
-  bottom: 20%;
+  bottom: 50%;
 }
-.form-overlay 
-{
-    background-color: white;
-}
+
 label 
 {
     color:white
+}
+.form-outline .form-control
+{
+    background-color: #D3D3D3;
+
+}
+.form-outline .form-control~.form-label
+{
+    color:black;
+    opacity: 100%;
+}
+ul
+{
+    list-style-type:none;
+}
+.form-overlay
+{
+    background-color: white;
+    padding:1rem;
+}
+input
+{
+    color:black!important;
+
 }
