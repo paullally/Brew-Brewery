@@ -310,3 +310,14 @@ input
     color:black!important;
 
 }
+@media (max-width: 1024px) {
+
+.contact {
+    position: relative;
+
+  }
+  .contact-btn
+  {
+      font-size: 8px;
+  }
+}
