@@ -378,7 +378,16 @@ button {
 .contact {
   position: absolute;
   width: 100%;
-  bottom: 30%;
+  bottom: 40%;
+}
+.contact-btn
+{
+    background-color: var(--p-red);
+}
+.form-check-input[type=checkbox]:checked {
+    background-image: none;
+    background-color: var(--p-red);
+    border-color: var(--p-red);
 }
 
 .form-outline .form-control {
@@ -419,9 +428,7 @@ input {
   {
       color:black;
   }
-
 }
-
 @media (max-width: 767px) {
 
   .main-video h1 {
