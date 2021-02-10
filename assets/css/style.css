@@ -30,14 +30,26 @@ footer {
 }
 .navbar-brand
 {
-    font-size: 25px;
-    font-family: 'Exo', sans-serif;
+    font-size: 25px; 
+    font-family: 'Source Sans Pro', sans-serif;
+
 }
 .nav-item
 {
     font-size: 20px;
-    font-family: 'Exo', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
+
     
+}
+
+.index-heading {
+    
+  font-family: 'Source Sans Pro', sans-serif;
+
+}
+.index-p
+{
+    font-family: 'Ubuntu', sans-serif;
 }
 .inline-block {
     align-items: center;
@@ -342,7 +354,6 @@ display:block;
   position: absolute;
   color: #FFFFFF;
  font-family: 'Source Sans Pro', sans-serif;
-font-family: 'Work Sans', sans-serif;
   text-align: center;
   top: 50%;
   left: 50%;
