@@ -45,9 +45,18 @@ footer {
   background-color: var(--p-blue);
   padding-top: 10px;
 }
+.divider {
+  height: 100px;
+  width: 200px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+}
 
 h1 {
   font-size: 3.75rem;
+  font-family: "Montserrat",sans-serif;
 }
 h2 
 {
@@ -62,13 +71,7 @@ p ,li
     font-weight: 400;
     font-size: 1.25rem;
 }
-.divider {
-  height: 50px;
-  width: 100px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
+
 #nav {
   background-color: var(--p-blue);
   padding: 20px
@@ -85,6 +88,27 @@ p ,li
   font-size: 20px;
   font-family: 'Source Sans Pro', sans-serif;
   padding-left: 20px;
+}
+.main-video {
+  position: absolute;
+  letter-spacing: 2px;
+  text-align: center;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-transform: uppercase;
+}
+
+.main-video h1 {
+  font-size: 8.75rem;
+  font-family: "Permanent Marker", sans-serif;
+  text-shadow: 4px 2px;
+  color: #F5F5F5;
+
+}
+.heading-mobile {
+display: none;
+
 }
 
 .drink {
@@ -391,22 +415,25 @@ input {
 
 @media (max-width: 767px) {
 
-  .main-video {
-    position: relative !important;
-    padding-top: 100px;
 
-  }
 
   .main-video h1 {
+    display:none;
+    
+  }
+
+
+  .heading-mobile {
+    display: inline-block;
     font-size: 3.75rem !important;
     font-family: "Permanent Marker", sans-serif;
     text-shadow: 4px 2px;
     color: var(--bk-dgreen) !important;
     position: relative;
-    padding-top: 1rem;
+    text-align: center;
+
 
   }
-
 }
 
 
@@ -422,32 +449,6 @@ input {
   }
 
 }
-
-
-
-.main-video {
-  position: absolute;
-  color: #FFFFFF;
-  font-family: 'Source Sans Pro', sans-serif;
-  letter-spacing: 2px;
-
-  text-align: center;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  text-transform: uppercase;
-}
-
-.main-video h1 {
-  font-size: 8.75rem;
-  font-family: "Permanent Marker", sans-serif;
-  text-shadow: 4px 2px;
-  color: #F5F5F5;
-
-}
-
-
-
 .tilt-in-top-1 {
   -webkit-animation: tilt-in-top-1 0.6s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
   animation: tilt-in-top-1 0.6s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
