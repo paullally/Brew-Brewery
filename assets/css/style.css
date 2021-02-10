@@ -403,7 +403,8 @@ button {
 
 .form-overlay {
   background-color: white;
-  padding: 1rem;
+  padding: 2rem;
+  border-radius: 5px;
 }
 
 input {
