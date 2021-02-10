@@ -68,32 +68,13 @@ video {
 {
     background-color: #d9d9d9;;
 }
-.main-heading  {
-    text-align: center;
-    margin:5%;
-    font-family: 'Exo', sans-serif;
-}
-.filler {
-    font-size: 25px;
-    margin:10%;
-    font-family: 'Lato', sans-serif;
-    font-weight: 400;
-}
-.product-button {
 
-    font-size: 20px;
-    background-color: #3c6e71;
-    margin-bottom:100px;
-   
-
-}
 img {
     margin:20px 10px;
 }
 .container {
     text-align: center;
 }
-
 .embed-responsive .embed-responsive-item, .embed-responsive embed, .embed-responsive iframe, .embed-responsive object, .embed-responsive video {
     position: absolute;
     top: 0;
@@ -326,8 +307,12 @@ input
   
  .main-video {
   position: relative!important;
-  padding-top:20px;
+  padding-top:100px;
   
+}
+.video-heading
+{
+    color:black;
 }
 
 }
@@ -353,15 +338,17 @@ display:block;
   margin-right: auto;
 }
 .main-video {
+
   position: absolute;
-  font-family: "Open Sans";
   color: #FFFFFF;
+ font-family: 'Source Sans Pro', sans-serif;
+font-family: 'Work Sans', sans-serif;
   text-align: center;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   text-transform: uppercase;
-  text-shadow: .1em .1em .2em rgba(0, 0, 0, 0.6);
+
 }
 
 
