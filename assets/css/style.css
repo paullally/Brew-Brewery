@@ -35,15 +35,15 @@ body {
   position: relative;
   padding-bottom: 100px;
   /* height of your footer */
-
 }
-
+section{
+    margin-bottom:4rem;
+}
 footer {
   position: absolute;
   bottom: 0;
   width: 100%;
   background-color: var(--p-blue);
-  padding-top: 10px;
 }
 .divider {
   height: 100px;
@@ -57,6 +57,8 @@ footer {
 h1 {
   font-size: 3.75rem;
   font-family: "Montserrat",sans-serif;
+  color:var(--bk-dgreen);
+  font-weight: 600;
 }
 h2 
 {
@@ -111,38 +113,40 @@ display: none;
 
 }
 
-.drink {
+.drink  {
   color: white;
+    font-size: 1.3rem;
+    font-weight: 400;
+    font-family: 'Montserrat';
+}
+a{
+    color:black;
+}
+a:hover{
+    color:var(--p-red);
+    text-decoration: underline;
 }
 
-.inline-block {
-  align-items: center;
-}
+
 
 .social-links li a i {
-  width: 32px;
-  height: 32px;
-  padding: 12px 0;
-  border-radius: 50%;
-  font-size: 13px;
-  line-height: 7px;
-  text-align: center;
-  color: black;
-  background-color: #d9d9d9;
+width: 32px;
+    height: 32px;
+    padding: 12px 0;
+    border-radius: 50%;
+    font-size: 13px;
+    line-height: 7px;
+    text-align: center;
+    color: #8FA6AC;
+    background-color: white;
 }
+
 
 .general-sub {
-  color: #fafafa;
-}
-
-.drink a {
   color: white;
+    font-weight: 400;
+    font-family: 'Montserrat';
 }
-
-video {
-  border: 0;
-}
-
 
 img {
   margin: 20px 10px;
@@ -151,7 +155,6 @@ img {
 .container {
   text-align: center;
 }
-
 .embed-responsive .embed-responsive-item,
 .embed-responsive embed,
 .embed-responsive iframe,
@@ -359,13 +362,15 @@ button {
 }
 
 .heading {
-  font-weight: 400;
-  margin-bottom: 1%;
-  color: white;
+  font-size: 3.75rem;
+  font-family: "Montserrat",sans-serif;
+  color:white;
+  font-weight: 600;
 }
 
 .subhead {
-  font-weight: 400;
+   font-family: "Source Sans Pro",sans-serif ;
+    font-weight: 400;
 
   color: white;
 }
@@ -373,7 +378,7 @@ button {
 .contact {
   position: absolute;
   width: 100%;
-  bottom: 50%;
+  bottom: 30%;
 }
 
 .form-outline .form-control {
@@ -406,16 +411,18 @@ input {
     position: relative;
   }
 
-  .heading,
-  .subhead {
-    color: black;
+  .heading
+  {
+    color: var(--bk-dgreen);
+  }
+  .subhead
+  {
+      color:black;
   }
 
 }
 
 @media (max-width: 767px) {
-
-
 
   .main-video h1 {
     display:none;
