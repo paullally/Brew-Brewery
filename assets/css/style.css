@@ -316,8 +316,14 @@ input
     position: relative;
 
   }
-  .contact-btn
-  {
-      font-size: 8px;
-  }
+ 
+
+}
+@media (max-width: 320px) {
+  
+    
+  .btn.btn-block {
+    margin-bottom: 50px!important;
+    font-size: 8px;
+}
 }
