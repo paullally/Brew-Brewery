@@ -49,7 +49,26 @@ footer {
 h1 {
   font-size: 3.75rem;
 }
-
+h2 
+{
+    font-family: "Montserrat",sans-serif;
+    font-weight: 500;
+    color:var(--bk-dgreen);
+    font-size:2.3rem;
+}
+p ,li
+{
+    font-family: "Source Sans Pro",sans-serif ;
+    font-weight: 400;
+    font-size: 1.25rem;
+}
+.divider {
+  height: 50px;
+  width: 100px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
 #nav {
   background-color: var(--p-blue);
   padding: 20px
@@ -70,16 +89,6 @@ h1 {
 
 .drink {
   color: white;
-}
-
-.index-heading {
-
-  font-family: 'Source Sans Pro', sans-serif;
-
-}
-
-.index-p {
-  font-family: 'Ubuntu', sans-serif;
 }
 
 .inline-block {
@@ -414,13 +423,7 @@ input {
 
 }
 
-.divider {
-  height: 50px;
-  width: 100px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
+
 
 .main-video {
   position: absolute;
