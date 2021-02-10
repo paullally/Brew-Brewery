@@ -41,6 +41,10 @@ footer {
 
     
 }
+.drink 
+{
+    color:white;
+}
 
 .index-heading {
     
@@ -350,10 +354,10 @@ display:block;
   margin-right: auto;
 }
 .main-video {
-
   position: absolute;
   color: #FFFFFF;
  font-family: 'Source Sans Pro', sans-serif;
+ letter-spacing: 2px;
   text-align: center;
   top: 50%;
   left: 50%;
