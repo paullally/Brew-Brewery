@@ -64,6 +64,10 @@ p
     font-weight: 400;
     font-size: 1.25rem;
 }
+.details
+{
+    text-align: left;
+}
 .divider {
   height: 100px;
   width: 200px;
@@ -72,15 +76,12 @@ p
   margin-right: auto;
 
 }
-
-
-
 .heading-mobile {
 display: none;
 
 }
 a{
-    color:black;
+    color:#808080;
 }
 a:hover{
     color:var(--p-red);
