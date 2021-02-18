@@ -11,6 +11,14 @@
   --bk-green: #85865F;
   --bk-dgreen: #4F583D;
 }
+::-moz-selection { /* Code for Firefox */
+  color:white;
+  background-color:var(--bk-dgreen);
+}
+::selection {
+  color:white;
+  background-color:var(--bk-dgreen);
+}
 /* general style */
 * {
   box-sizing: border-box;
@@ -140,7 +148,19 @@ img {
   font-family: 'Source Sans Pro', sans-serif;
   padding-left: 20px;
 }
-
+.smart-scroll{
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 1030;
+}
+.scrolled-down{
+   transform:translateY(-100%); transition: all 0.3s ease-in-out;
+}
+.scrolled-up{
+   transform:translateY(0); transition: all 0.3s ease-in-out;
+}
 /* footer */
 .social-links li a i {
 width: 32px;
@@ -158,6 +178,7 @@ footer {
   bottom: 0;
   width: 100%;
   background-color: var(--p-blue);
+  text-align: center;
 }
 
 .general-sub {

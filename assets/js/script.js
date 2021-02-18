@@ -1,3 +1,27 @@
+$('body').css('padding-top', $('.navbar').outerHeight() + 'px')
+
+// detect scroll top or down
+if ($('.smart-scroll').length > 0) { // check if element exists
+    var last_scroll_top = 0;
+    $(window).on('scroll', function() {
+        scroll_top = $(this).scrollTop();
+        if(scroll_top < last_scroll_top) {
+            $('.smart-scroll').removeClass('scrolled-down').addClass('scrolled-up');
+        }
+        else {
+            $('.smart-scroll').removeClass('scrolled-up').addClass('scrolled-down');
+        }
+        last_scroll_top = scroll_top;
+    });
+}
+
+
+
+
+
+
+
+
 // Get the modal
 var modal = document.getElementsByClassName('modal');
 
@@ -61,12 +85,10 @@ span[7].onclick = function() {
   modal[7].style.display = "none";
 }
 
-
-
-
 // When the user clicks anywhere outside of the modal, close it
 window.onclick = function(event) {
   if (event.target == modal) {
     modal.style.display = "none";
   }
 }
+
