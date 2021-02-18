@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;600;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700;800&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+
 /* colors scheme */
 :root {
   --p-blue: #8FA6AC;
@@ -10,15 +11,19 @@
   --bk-green: #85865F;
   --bk-dgreen: #4F583D;
 }
+
 /* change color of highlighted text */
-::-moz-selection { /* Code for Firefox */
-  color:white;
-  background-color:var(--bk-dgreen);
+::-moz-selection {
+  /* Code for Firefox */
+  color: white;
+  background-color: var(--bk-dgreen);
 }
+
 ::selection {
-  color:white;
-  background-color:var(--bk-dgreen);
+  color: white;
+  background-color: var(--bk-dgreen);
 }
+
 /* general styling to page ref:keep that damn footer at the bottom */
 html,
 body {
@@ -33,10 +38,12 @@ body {
   position: relative;
   padding-bottom: 150px;
 }
+
 /* custom css */
-section{
-    margin-bottom:4rem;
+section {
+  margin-bottom: 4rem;
 }
+
 .divider {
   height: 100px;
   width: 200px;
@@ -45,38 +52,43 @@ section{
   margin-right: auto;
 
 }
+
 /* headings and paragraphs a and imgs  */
 h1 {
   font-size: 3.75rem;
-  font-family: "Montserrat",sans-serif;
-  color:var(--bk-dgreen);
+  font-family: "Montserrat", sans-serif;
+  color: var(--bk-dgreen);
   font-weight: 700;
 }
-h2 
-{
-    font-family: "Montserrat",sans-serif;
-    font-weight: 500;
-    color:var(--bk-dgreen);
-    font-size:2.3rem;
+
+h2 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  color: var(--bk-dgreen);
+  font-size: 2.3rem;
 }
+
 h3 {
-   font-family: "Montserrat",sans-serif ;
-    font-weight: 400;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
   color: white;
 }
-p
-{
-    font-family: "Source Sans Pro",sans-serif ;
-    font-weight: 400;
-    font-size: 1.25rem;
+
+p {
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: 400;
+  font-size: 1.25rem;
 }
-a{
-    color:var(--p-red);
-    font-weight: 600;
+
+a {
+  color: var(--p-red);
+  font-weight: 600;
 }
+
 img {
   margin: 20px 10px;
 }
+
 /* nav bar */
 #nav {
   background-color: var(--bk-dgreen);
@@ -94,58 +106,68 @@ img {
   font-size: 20px;
   font-family: 'Source Sans Pro', sans-serif;
   padding-left: 20px;
-  font-weight: 400!important;
+  font-weight: 400 !important;
 }
-.smart-scroll{
+
+.smart-scroll {
   position: fixed;
   top: 0;
   right: 0;
   left: 0;
   z-index: 1030;
 }
-.scrolled-down{
-   transform:translateY(-100%); transition: all 0.3s ease-in-out;
+
+.scrolled-down {
+  transform: translateY(-100%);
+  transition: all 0.3s ease-in-out;
 }
-.scrolled-up{
-   transform:translateY(0); transition: all 0.3s ease-in-out;
+
+.scrolled-up {
+  transform: translateY(0);
+  transition: all 0.3s ease-in-out;
 }
+
 /* footer */
 footer {
   position: absolute;
   bottom: 0;
   width: 100%;
   background-color: var(--bk-dgreen);
-   text-align: center;
+  text-align: center;
 }
+
 .social-links li a i {
-width: 32px;
-    height: 32px;
-    padding: 12px 0;
-    border-radius: 50%;
-    font-size: 13px;
-    line-height: 7px;
-    text-align: center;
-    color: var(--bk-dgreen);
-    background-color: white;
+  width: 32px;
+  height: 32px;
+  padding: 12px 0;
+  border-radius: 50%;
+  font-size: 13px;
+  line-height: 7px;
+  text-align: center;
+  color: var(--bk-dgreen);
+  background-color: white;
 }
+
 .footer-text {
   color: white;
-    font-weight: 400;
-    font-family: 'Montserrat';
-    font-size:1rem;
+  font-weight: 400;
+  font-family: 'Montserrat';
+  font-size: 1rem;
 }
-.drink  {
+
+.drink {
   color: var(--p-cream);
-    font-size: 1rem;
-    font-weight: 500;
-    font-family: 'Montserrat';
+  font-size: 1rem;
+  font-weight: 500;
+  font-family: 'Montserrat';
 }
-.drink:hover 
-{
-    text-decoration: underline;
-    color:var(--p-cream);
+
+.drink:hover {
+  text-decoration: underline;
+  color: var(--p-cream);
 
 }
+
 /* landing page styling */
 
 /* header text animation */
@@ -153,6 +175,7 @@ width: 32px;
   -webkit-animation: tilt-in-top-1 0.6s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
   animation: tilt-in-top-1 0.6s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
 }
+
 .main-video {
   position: absolute;
   letter-spacing: 2px;
@@ -163,10 +186,12 @@ width: 32px;
   text-transform: uppercase;
 
 }
+
 .heading-mobile {
-display: none;
+  display: none;
 
 }
+
 .main-video h1 {
   font-size: 8.75rem;
   font-family: "Permanent Marker", sans-serif;
@@ -174,6 +199,7 @@ display: none;
   color: #F5F5F5;
 
 }
+
 /* removes white space between nav bar and landing video */
 .embed-responsive .embed-responsive-item,
 .embed-responsive embed,
@@ -193,13 +219,15 @@ display: none;
 
 /* Products page  */
 /* products page overlay and effect */
-.btn-link{
-    color:white;
+.btn-link {
+  color: white;
 }
-.btn-link:hover{
-    color:white;
-    text-decoration: underline;
+
+.btn-link:hover {
+  color: white;
+  text-decoration: underline;
 }
+
 .hovereffect {
   width: 100%;
   height: 100%;
@@ -269,6 +297,7 @@ display: none;
   -webkit-transform: translate3d(0, -100%, 0);
   transform: translate3d(0, -100%, 0);
 }
+
 .hovereffect a,
 .hovereffect p {
   color: #FFF;
@@ -280,6 +309,7 @@ display: none;
   -webkit-transform: translate3d(0, 100%, 0);
   transform: translate3d(0, 100%, 0);
 }
+
 .hovereffect:hover a,
 .hovereffect:hover p,
 .hovereffect:hover h2 {
@@ -303,6 +333,7 @@ display: none;
   overflow: auto;
   background-color: rgba(0, 0, 0, 0.4);
 }
+
 /* Modal Content */
 .modal-content {
   position: relative;
@@ -317,64 +348,78 @@ display: none;
   animation-name: animatetop;
   animation-duration: 0.4s;
 }
+
 .close {
   color: black;
   float: right;
   font-size: 28px;
   font-weight: bold;
 }
+
 .close:hover {
   color: #000;
   text-decoration: none;
   cursor: pointer;
 }
+
 .modal-header {
   padding: 10px 16px;
   border-bottom: 1px solid black;
 }
+
 .modal-body {
   padding: 25px 16px;
   font-size: 20px;
 }
+
 /* contact form and section */
 .contact {
   position: absolute;
   width: 100%;
   bottom: 40%;
 }
+
 .contact-btn {
   color: white;
   background-color: var(--p-red);
 }
+
 .heading {
-  color:white;
+  color: white;
 }
+
 .form-check-input[type=checkbox]:checked {
-    background-image: none;
-    background-color: var(--p-red);
-    border-color: var(--p-red);
+  background-image: none;
+  background-color: var(--p-red);
+  border-color: var(--p-red);
 }
+
 .form-outline .form-control {
   background-color: #F5F5F5;
 
 }
+
 .form-outline .form-control~.form-label {
   color: black;
   opacity: 100%;
 }
+
 .form-overlay {
   background-color: white;
   padding: 2rem;
   border-radius: 5px;
 }
+
 input {
   color: black !important;
 }
+
 /*media queries */
 @media (max-width: 767px) {
   .main-video h1 {
-    display:none;
+    display: none;
   }
+
   .heading-mobile {
     display: inline-block;
     font-size: 3.75rem !important;
@@ -385,6 +430,7 @@ input {
     text-align: center;
   }
 }
+
 @media (max-width: 320px) {
 
   .btn.btn-block {
@@ -393,17 +439,18 @@ input {
     width: 75px;
   }
 }
+
 @media (max-width: 1440px) {
   .contact {
     position: relative;
   }
-  .heading
-  {
+
+  .heading {
     color: var(--bk-dgreen);
   }
-  .subhead
-  {
-      color:black;
+
+  .subhead {
+    color: black;
   }
 }
 
