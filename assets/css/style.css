@@ -40,7 +40,7 @@ body {
   overflow: hidden;
   display: block;
   position: relative;
-  padding-bottom: 200px;
+  padding-bottom: 150px;
 }
 section{
     margin-bottom:4rem;
@@ -484,10 +484,11 @@ input {
 
   .btn.btn-block {
     margin-bottom: 50px !important;
-    font-size: 8px;
+    font-size: 10px;
+    width: 75px;
   }
 }
-@media (max-width: 1024px) {
+@media (max-width: 1440px) {
   .contact {
     position: relative;
   }
