@@ -40,7 +40,7 @@ body {
   overflow: hidden;
   display: block;
   position: relative;
-  padding-bottom: 100px;
+  padding-bottom: 200px;
 }
 section{
     margin-bottom:4rem;
@@ -178,7 +178,8 @@ footer {
   bottom: 0;
   width: 100%;
   background-color: var(--p-blue);
-  text-align: center;
+   text-align: center;
+ 
 }
 
 .general-sub {
