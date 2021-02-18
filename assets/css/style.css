@@ -33,33 +33,9 @@ body {
   position: relative;
   padding-bottom: 150px;
 }
+/* custom css */
 section{
     margin-bottom:4rem;
-}
-
-/* headings and paragraphs a and imgs  */
-h1 {
-  font-size: 3.75rem;
-  font-family: "Montserrat",sans-serif;
-  color:var(--bk-dgreen);
-  font-weight: 600;
-}
-h2 
-{
-    font-family: "Montserrat",sans-serif;
-    font-weight: 500;
-    color:var(--bk-dgreen);
-    font-size:2.3rem;
-}
-p
-{
-    font-family: "Source Sans Pro",sans-serif ;
-    font-weight: 400;
-    font-size: 1.25rem;
-}
-.details
-{
-    text-align: left;
 }
 .divider {
   height: 100px;
@@ -69,20 +45,69 @@ p
   margin-right: auto;
 
 }
-.heading-mobile {
-display: none;
-
+/* headings and paragraphs a and imgs  */
+h1 {
+  font-size: 3.75rem;
+  font-family: "Montserrat",sans-serif;
+  color:var(--bk-dgreen);
+  font-weight: 700;
+}
+h2 
+{
+    font-family: "Montserrat",sans-serif;
+    font-weight: 500;
+    color:var(--bk-dgreen);
+    font-size:2.3rem;
+}
+h3 {
+   font-family: "Montserrat",sans-serif ;
+    font-weight: 400;
+  color: white;
+}
+p
+{
+    font-family: "Source Sans Pro",sans-serif ;
+    font-weight: 400;
+    font-size: 1.25rem;
 }
 a{
     color:var(--p-red);
     font-weight: 600;
 }
-a:hover{
-    color:var(--p-blue);
-    
-}
 img {
   margin: 20px 10px;
+}
+/* nav bar */
+#nav {
+  background-color: var(--p-blue);
+  padding: 20px
+}
+
+.navbar-brand {
+  font-size: 25px;
+  font-family: 'Permanent Marker', sans-serif;
+  text-align: center;
+  line-height: 15px;
+}
+
+.nav-item {
+  font-size: 20px;
+  font-family: 'Source Sans Pro', sans-serif;
+  padding-left: 20px;
+  font-weight: 400!important;
+}
+.smart-scroll{
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 1030;
+}
+.scrolled-down{
+   transform:translateY(-100%); transition: all 0.3s ease-in-out;
+}
+.scrolled-up{
+   transform:translateY(0); transition: all 0.3s ease-in-out;
 }
 /* video styling */
 .main-video {
@@ -94,7 +119,10 @@ img {
   transform: translate(-50%, -50%);
   text-transform: uppercase;
 }
+.heading-mobile {
+display: none;
 
+}
 .main-video h1 {
   font-size: 8.75rem;
   font-family: "Permanent Marker", sans-serif;
@@ -116,37 +144,7 @@ img {
   height: auto;
   border: 0;
 }
-/* nav bar */
-#nav {
-  background-color: var(--p-blue);
-  padding: 20px
-}
 
-.navbar-brand {
-  font-size: 25px;
-  font-family: 'Permanent Marker', sans-serif;
-  text-align: center;
-  line-height: 15px;
-}
-
-.nav-item {
-  font-size: 20px;
-  font-family: 'Source Sans Pro', sans-serif;
-  padding-left: 20px;
-}
-.smart-scroll{
-  position: fixed;
-  top: 0;
-  right: 0;
-  left: 0;
-  z-index: 1030;
-}
-.scrolled-down{
-   transform:translateY(-100%); transition: all 0.3s ease-in-out;
-}
-.scrolled-up{
-   transform:translateY(0); transition: all 0.3s ease-in-out;
-}
 /* footer */
 .social-links li a i {
 width: 32px;
@@ -293,12 +291,7 @@ button {
   font-weight: 600;
 }
 
-.subhead {
-   font-family: "Source Sans Pro",sans-serif ;
-    font-weight: 400;
 
-  color: white;
-}
 
 .contact-btn
 {
