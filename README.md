@@ -174,8 +174,17 @@ The Products page is split up into 2 sections:
 
 ### **Contact page**
 The Contact page is one section:
-- On the contact page their is a background  image with 2 headings and a contact form on top of this image.
+- On the contact page their is a background  image with 2 headings and a contact form on top of this image, Each part of this form is required to be filled.
 
 
 
 ### **Future Features**
+
+Age verification:
+
+When someone loads the website i would haved like to have a page dedicated to verify that they are over the age of 18 to ensure that users know this website is for people who a legally allowed to drink
+
+newsletter: 
+
+On the contact page there is a check box that allows you to subscribe to **Brew Brewery's** newsletter.I would have liked to created a program that will send out a monthly newsletter to the users that have subscribe.  
+
