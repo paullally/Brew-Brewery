@@ -26,7 +26,7 @@
     * [**User Story Testing**](#User-Story-Testing)
     * [**Manual Testing**](#manual-testing)
       * [**Lighthouse**](#lighthouse)
-      * [**Responsive Testing**](responsive-testing)
+      * [**Responsive Testing**](#responsive-testing)
     * [**Bugs Discovered**](#bugs-discovered)
          * [**Resolved Bugs**](#resolved-Bugs)
           * [**Unresolved Bugs**](#unresolved-Bugs)
@@ -260,3 +260,5 @@ The results were as follows:
 A mobile Lighthouse report was completed on **Brew Brewery's** website<br>
 The results were as follows:
 <h2 align=center id="top"><img src="assets/images/lighthousemobile.png" max-height=100px></h2>
+
+#### **Responsive Testing**
