@@ -17,7 +17,9 @@
     * [**Features on every page**](#features-on-every-page)
     * [**Home page**](#home-page)
     * [**Future Features**](#future-features)
-* [**Technologies**](#Technologies)
+- [**Technologies Used**](#technologies-used)
+    * [**Front End Technologies**](#front-end-technologies)
+    * [**Other Technologies**](#other-technologies)
 * [**Testing**](#Testing)
     * [**Test Strategy**](#Test-Strategy)
       * [**Summary**](#Summary)
@@ -182,9 +184,27 @@ The Contact page is one section:
 
 Age verification:
 
-When someone loads the website i would haved like to have a page dedicated to verify that they are over the age of 18 to ensure that users know this website is for people who a legally allowed to drink
+When someone loads the website i would haved like to have a page dedicated to verify that they are over the age of 18 to ensure that users know this website is for people who a legally allowed to drink.
 
-newsletter: 
+Newsletter: 
 
 On the contact page there is a check box that allows you to subscribe to **Brew Brewery's** newsletter.I would have liked to created a program that will send out a monthly newsletter to the users that have subscribe.  
 
+## **Technologies Used** 
+---
+- ### **Front End Technologies**
+    - HTMl
+    - CSS
+    - Javascript
+    - [**JQuery**](https://jquery.com/) to simplify DOM manipulation.
+    - [**MDBoostrap**](https://mdbootstrap.com/) a front end framework used to create responsive aspects across the site. 
+    - [Font Awesome](https://fontawesome.com/) Font awesome Icons are used for the Social media links contained in the Footer section of the website.
+    - [Google Fonts](https://fonts.google.com/) Google fonts are used throughout the project.
+
+- ### **Other Technologies** 
+    - [**Gitpod**](http://gitpod.io/) the cloud based IDE used for development 
+    - [**Github**](https://github.com/) to store and share all project code remotely.
+    - [**Balsamiq**](https://balsamiq.com/?gclid=Cj0KCQjwo6D4BRDgARIsAA6uN1-NxDOthq9pGqYzB_1iRxlBvHVwi_4_LaZuGqQT46csctF0xCiTXUMaAqmuEALw_wcB) used to create wireframes.
+    - [**TinyPng**](https://tinypng.com/) used to compress image sizes. 
+    - [**Mp4Compress**](https://www.mp4compress.com/) used to compress landing video.
+    
