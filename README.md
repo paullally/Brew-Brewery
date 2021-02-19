@@ -5,11 +5,11 @@
 * [**Purpose**](#purpose)
 * [**User Experience Design (UX)**](#user-experience-design)
   * [**User stories**](#user-stories)
-  * [**Structure**](#Structure)
+  * [**Structure**](#structure)
   * [**Design**](#Design)
-    * [**Colour Scheme**](#Colour-Scheme)
-    * [**Typography**](#Typography)
-    * [**Imagery**](#Imagery)
+    * [**Colour Scheme**](#colour-scheme)
+    * [**Typography**](#typography)
+    * [**Imagery**](#imagery)
     * [**Wireframes**](#Wireframes)
 - [**Features**](#Features)
     * [**Existing Features**](#Existing-Features)
@@ -42,9 +42,9 @@ Not all craft beer is good beer and finding good craft beer can be hard nowadays
 The live website can be found [here](https://paullally.github.io/Milestone-1/).
 
 *** 
-# User Experience Design
+# **User Experience Design**
 
-## User Stories
+## **User Stories**
 
 - As a user, I want to be able to navigate through the website easily so i that i know where to find the relevant information.
 - As a user, I want to be able to see the products on offer so that I know what types of beer are available. 
@@ -57,12 +57,12 @@ The live website can be found [here](https://paullally.github.io/Milestone-1/).
 -   As a user, I want to be able get in contact with the company so i can book in for a tour and give my feedback on the products they offer. 
 -    As a user, I want to be able view their social media websites to get more frequent updates from the company.
 
-### Structure
+## **Structure**
 Every page contains a Navigation bar at the top of the webpage that will dissapear when you scroll down and reappear when you scroll up. it will direct them to new pages making it easy to navigate the website 
 <br>This fufils the user story:
 > As a user, I want to be able to navigate through the website easily so i that i know where to find the relevant information.
 
-All pages  contain a footer element with links to the company's social media, a copyright disclaimer and a final link to the drink aware website to promote safe and resposible drinking 
+All pages  contain a Footer Element with links to the **Brew Brewery's** social media, a copyright disclaimer and a link to the **Drink Aware** website to promote safe and resposible drinking 
 <br>This fufils the user story:
 >As a user, I want to be able view there social media websites to get more frequent updates from the company.
 
@@ -70,14 +70,14 @@ All pages are fully responsive and the layouts will change dependant on screen s
 <br>This fufils the user story:
 > As a user, I want to be able view the website on all devices so I can show others the website on my mobile phone or laptop. 
 
-The home page contains details on the backstory of the company, the products they offer and the brewing process they use. <br>
+The home page contains details on the backstory of **Brew Brewery**. The products they offer and the Brewing process they use. <br>
 This fufils the user stories:
  
  > As a user, I want to be able read about the company history to find out more about the company and its staff.<br>
  > As a user, I want to be able read about the brewing process to learn about there unqiue brewing style. <br>
  > As a user, I want to be able know what the website is about from frist glance to easily understand the main purpose of the site.
 
- The products page contains images of the beer that is on offer,when you hover over the image an overlay will appear with the name of the beer and a learn more button. When this button is clicked you are given a description of the beer and a link to where to buy that beer. <br>
+ The products page contains images of the beer that is on offer, When you hover over the image an overlay will appear with the name of the beer and a learn more button. When this button is clicked you are given a description of the beer and a link to where to buy that beer. <br>
  This fufils the user stories:
   > As a user, I want to be able to see the products on offer so that I know what types of beer they have on offer.<br>
  > As a user, I want to be able to read a description on of the products so that I can make a decision on what I would like to try.<br>
@@ -87,5 +87,44 @@ The contacts page contains a form that can be filled out by inputing you name em
 This fufils the user story:
 >  As a user, I want to be able get in contact with the company so i can book in for a tour and give my feedback on the products they offer. 
 
+## **Design**
+---
+
+### **Colour Scheme**
+
+<h2 align=center id="top"><img src="assets/images/colours.png" max-height=200px></h2>
+
+### **Typography**
+
+- [**Montserrat:**](https://fonts.google.com/specimen/Montserrat?query=mont)
+    - The primary font across the website, using four different weights: 400, 500, 700.
+    - Montserrat was used for the main heading tags and the footer text elements. 
+
+- [**Source Sans Pro**](https://fonts.google.com/specimen/Source+Sans+Pro?preview.text_type=custom&query=sou)
+    - The secondary font across the website.
+    - Source Sans Pro was used for the Navigation bar Links and paragraphs in a font weight of 400.
+
+- [**Permanent Marker**](https://fonts.google.com/specimen/Permanent+Marker?preview.text_type=custom&query=perm)
+    - This font was used to created the logo text.
+    - Permanent Marker was used on the navigation bar logo and the landing image logo. 
+
+### **Imagery**
+
+Images and videos are a big part of this website, these images and videos are all stock and can be found [here](https://www.pexels.com/).
 
 
+### **Wireframes**
+#### **Home page**
+<h2 align=center id="top"><img src="wireframes/homepage1.png" max-height=100px></h2>
+<h2 align=center id="top"><img src="wireframes/homepage2.png" max-height=100px></h2>
+<h2 align=center id="top"><img src="wireframes/homepage3.png" max-height=100px></h2>
+
+#### **Products page**
+<h2 align=center id="top"><img src="wireframes/productspage1.png" max-height=100px></h2>
+<h2 align=center id="top"><img src="wireframes/productspage2.png" max-height=100px></h2>
+<h2 align=center id="top"><img src="wireframes/productspage3.png" max-height=100px></h2>
+
+#### **About page**
+<h2 align=center id="top"><img src="wireframes/aboutpage1.png" max-height=100px></h2>
+<h2 align=center id="top"><img src="wireframes/aboutpage2.png" max-height=100px></h2>
+<h2 align=center id="top"><img src="wireframes/aboutpage3.png" max-height=100px></h2>
