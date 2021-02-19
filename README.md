@@ -9,7 +9,8 @@
   * [**Design**](#Design)
     * [**Colour Scheme**](#colour-scheme)
     * [**Typography**](#typography)
-    * [**Imagery**](#imagery)
+    * [**Frameworks**](#frameworks)
+     * [**Icons**](#icons)
     * [**Wireframes**](#Wireframes)
 - [**Features**](#Features)
     * [**Existing Features**](#Existing-Features)
@@ -99,19 +100,27 @@ This fufils the user story:
 - [**Montserrat:**](https://fonts.google.com/specimen/Montserrat?query=mont)
     - The primary font across the website, using four different weights: 400, 500, 700.
     - Montserrat was used for the main heading tags and the footer text elements. 
+    - Montserrat was chosen due to is readablity for all users.
 
 - [**Source Sans Pro**](https://fonts.google.com/specimen/Source+Sans+Pro?preview.text_type=custom&query=sou)
     - The secondary font across the website.
     - Source Sans Pro was used for the Navigation bar Links and paragraphs in a font weight of 400.
-
+    - Source Sans Pro was chosen for its readablity and compliments  Montserrat well.
 - [**Permanent Marker**](https://fonts.google.com/specimen/Permanent+Marker?preview.text_type=custom&query=perm)
     - This font was used to created the logo text.
-    - Permanent Marker was used on the navigation bar logo and the landing image logo. 
+    - Permanent Marker was used on the navigation bar logo and the landing image logo.
+    - This font was used due its distinct style and playfulness.  
 
-### **Imagery**
+### **Frameworks**
+- [MDBoostrap](https://mdbootstrap.com/)
+    - Taking the responsiveness of Bootstrap and the front-end UI of Materialize, MDBoostrap makes use of both of these. So all aspects of the site were clean and accessible for all users. 
 
-Images and videos are a big part of this website, these images and videos are all stock and can be found [here](https://www.pexels.com/).
+- [JQuery](https://code.jquery.com/jquery/)
+    - In order to minimalize the amount of Javascript used across the application, I chose to implement a lot of the JS functionality with JQuery.
 
+### **Icons**
+- [Font Awesome Icons](https://fontawesome.com/)
+    - All the icons used across this website were taken from Font Awesome and styled to match the colour scheme.
 
 ### **Wireframes**
 
