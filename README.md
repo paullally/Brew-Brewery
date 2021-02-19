@@ -114,17 +114,23 @@ Images and videos are a big part of this website, these images and videos are al
 
 
 ### **Wireframes**
-#### **Home page**
-<h2 align=center id="top"><img src="wireframes/homepage1.png" max-height=100px></h2>
-<h2 align=center id="top"><img src="wireframes/homepage2.png" max-height=100px></h2>
-<h2 align=center id="top"><img src="wireframes/homepage3.png" max-height=100px></h2>
 
-#### **Products page**
-<h2 align=center id="top"><img src="wireframes/productspage1.png" max-height=100px></h2>
-<h2 align=center id="top"><img src="wireframes/productspage2.png" max-height=100px></h2>
-<h2 align=center id="top"><img src="wireframes/productspage3.png" max-height=100px></h2>
+#### **Desktop**
 
-#### **About page**
-<h2 align=center id="top"><img src="wireframes/aboutpage1.png" max-height=100px></h2>
-<h2 align=center id="top"><img src="wireframes/aboutpage2.png" max-height=100px></h2>
-<h2 align=center id="top"><img src="wireframes/aboutpage3.png" max-height=100px></h2>
+[**Home page**](wireframes/homepage1.png) <br>
+[**Products page**](wireframes/productspage1.png)<br>
+[**About page**](wireframes/aboutpage1.png)
+
+#### **Tablet**
+
+[**Home page**](wireframes/homepage3.png) <br>
+[**Products page**](wireframes/productspage3.png)<br>
+[**About page**](wireframes/aboutpage3.png)
+
+
+#### **Moblie**
+
+[**Home page**](wireframes/homepage2.png) <br>
+[**Products page**](wireframes/productspage2.png)<br>
+[**About page**](wireframes/aboutpage2.png)
+
