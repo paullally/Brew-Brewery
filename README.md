@@ -12,9 +12,11 @@
     * [**Frameworks**](#frameworks)
      * [**Icons**](#icons)
     * [**Wireframes**](#Wireframes)
-- [**Features**](#Features)
-    * [**Existing Features**](#Existing-Features)
-    * [**Future Features**](#Features-Left-to-Implement)
+- [**Features**](#features)
+    * [**Existing Features**](#existing-features)
+    * [**Features on every page**](#features-on-every-page)
+    * [**Home page**](#home-page)
+    * [**Future Features**](#future-features)
 * [**Technologies**](#Technologies)
 * [**Testing**](#Testing)
     * [**Test Strategy**](#Test-Strategy)
@@ -143,3 +145,37 @@ This fufils the user story:
 [**Products page**](wireframes/productspage2.png)<br>
 [**About page**](wireframes/aboutpage2.png)
 
+## **Features**
+---
+### **Existing Features**
+###  **Features on every page**
+- Navigation bar on Desktop
+<h2 align=left id="top"><img src="assets/images/navbardesktop.png" max-height=200px></h2>
+
+- Navigation bar on Tablet/Mobile
+<h2 align=center id="top"><img src="assets/images/navbarmobile.png" max-height=200px></h2>
+
+- Footer on Desktop
+<h2 align=left id="top"><img src="assets/images/footerdesktop.png" max-height=200px></h2>
+
+- Footer on  Tablet/Mobile
+<h2 align=center id="top"><img src="assets/images/footermobile.png" max-height=200px></h2>
+
+
+### **Home page**
+The Home page is split up into 2 sections:
+- A landing video with and animated logo that appears in the middle of the video.
+- 3 Headings and paragraphs that give information about **Brew Brewery**. The products offered and details about the brewing process used to make the beer.
+
+### **Products page**
+The Products page is split up into 2 sections:
+- On the main section of the products page their is 8 unqiue beers. When you hover over these images an overlay appears with the name of the beer and a learn more button.
+- When you click the learn more button a modal will pop up which will give you a description off the beer and a link to a website where you can buy the beer.
+
+### **Contact page**
+The Contact page is one section:
+- On the contact page their is a background  image with 2 headings and a contact form on top of this image.
+
+
+
+### **Future Features**
