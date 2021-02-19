@@ -20,13 +20,16 @@
 - [**Technologies Used**](#technologies-used)
     * [**Front End Technologies**](#front-end-technologies)
     * [**Other Technologies**](#other-technologies)
-* [**Testing**](#Testing)
-    * [**Test Strategy**](#Test-Strategy)
-      * [**Summary**](#Summary)
-      * [**Responsive Testing**](#Responsive-Testing)
-      * [**Validator Testing**](#Validator-Testing)
-      * [**User Story Testing**](#User-Story-Testing)
-      * [**Feature Testing**](#Feature-Testing)
+* [**Testing**](#testing)
+    * [**Code Testing**](#code-testing)
+      * [**Validator Testing**](#validator-testing)
+    * [**User Story Testing**](#User-Story-Testing)
+    * [**Manual Testing**](#manual-testing)
+      * [**Lighthouse**](#lighthouse)
+      * [**Responsive Testing**](responsive-testing)
+    * [**Bugs Discovered**](#bugs-discovered)
+         * [**Resolved Bugs**](#resolved-Bugs)
+          * [**Unresolved Bugs**](#unresolved-Bugs)
 * [**Deployment**](#Deployment)
     * [**GitHub Pages**](#Using-Github-Pages)
     * [**Locally**](Run-Locally)
@@ -198,8 +201,8 @@ On the contact page there is a check box that allows you to subscribe to **Brew 
     - Javascript
     - [**JQuery**](https://jquery.com/) to simplify DOM manipulation.
     - [**MDBoostrap**](https://mdbootstrap.com/) a front end framework used to create responsive aspects across the site. 
-    - [Font Awesome](https://fontawesome.com/) Font awesome Icons are used for the Social media links contained in the Footer section of the website.
-    - [Google Fonts](https://fonts.google.com/) Google fonts are used throughout the project.
+    - [**Font Awesome**](https://fontawesome.com/) Font awesome Icons are used for the Social media links contained in the Footer section of the website.
+    - [**Google Fonts**](https://fonts.google.com/) Google fonts are used throughout the project.
 
 - ### **Other Technologies** 
     - [**Gitpod**](http://gitpod.io/) the cloud based IDE used for development 
@@ -207,4 +210,53 @@ On the contact page there is a check box that allows you to subscribe to **Brew 
     - [**Balsamiq**](https://balsamiq.com/?gclid=Cj0KCQjwo6D4BRDgARIsAA6uN1-NxDOthq9pGqYzB_1iRxlBvHVwi_4_LaZuGqQT46csctF0xCiTXUMaAqmuEALw_wcB) used to create wireframes.
     - [**TinyPng**](https://tinypng.com/) used to compress image sizes. 
     - [**Mp4Compress**](https://www.mp4compress.com/) used to compress landing video.
-    
+
+## **Testing** 
+---
+
+### **Code Testing**
+#### **validator testing**
+
+[W3C Markup Validation](https://validator.w3.org/)
+
+- W3C Markup Validation was used to validate both the HTMl and CSS for this application.
+No Errors were noted.
+
+### **User Story Testing**
+
+1. As a user, I want to be able to navigate through the website easily so i that i know where to find the relevant information.
+    - The Navigation bar Contains the relevant information to be able to easliy navigate through the website
+2. As a user, I want to be able to see the products on offer so that I know what types of beer are available. 
+    - The Products page contains images of each beer available.
+3. As a user, I want to be able to read a description on of the products so that I can make a decision on what I would like to try. 
+    - Each beer has its own modal that gives a description of its flavour profile.
+4.  As a user, I want a link that directs me to a site to buy these products so I don't have to search for this information myself. 
+    - Each modal has a link that redirects you to a website where you can buy that beer.
+5. As a user, I want to be able view the website on all devices so I can show others the website on my mobile phone or laptop. 
+    - The **Brew Brewery** website is fully responsive and users are able to view it on all screen sizes.
+6. As a user, I want to be able read about the company history to find out more about the company and its staff.
+    - The **Brew Brewery** Home page has a brief paragraph dedicated to story of the company
+7. As a user, I want to be able read about the brewing process to learn about there unqiue brewing style. 
+    - The **Brew Brewery** Home page has a brief paragraph dedicated to the brewing process **Brew Brewery** uses.
+8. As a user, I want to be able know what the website is about from first glance to easily understand the main purpose of the site.
+    - On the home page there is a landing video of people enjoying some of **Brew Brewery's** finest products.
+9.  As a user, I want to be able get in contact with the company so i can book in for a tour and give my feedback on the products they offer. 
+    - **Brew Brewery's** website has a contact page that users can fill out to give feedback to the company and book a tour.
+10. As a user, I want to be able view their social media websites to get more frequent updates from the company.
+    - The Footer which is found on each page has links to all of **Brew Brewery's** social media.
+
+
+### **Manual Testing**
+
+manual testing was complted to ensure the application was responsive across all devices and achieved best practices in sofware developement.
+
+#### **Lighthouse**
+
+A desktop Lighthouse report was completed on **Brew Brewery's** website<br>
+The results were as follows:
+<h2 align=center id="top"><img src="assets/images/lighthousedesk.png" max-height=100px></h2>
+
+
+A mobile Lighthouse report was completed on **Brew Brewery's** website<br>
+The results were as follows:
+<h2 align=center id="top"><img src="assets/images/lighthousemobile.png" max-height=100px></h2>
