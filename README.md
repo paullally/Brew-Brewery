@@ -27,12 +27,9 @@
     * [**Manual Testing**](#manual-testing)
       * [**Lighthouse**](#lighthouse)
       * [**Responsive Testing**](#responsive-testing)
-    * [**Bugs Discovered**](#bugs-discovered)
-         * [**Resolved Bugs**](#resolved-Bugs)
-          * [**Unresolved Bugs**](#unresolved-Bugs)
-* [**Deployment**](#Deployment)
-    * [**GitHub Pages**](#Using-Github-Pages)
-    * [**Locally**](Run-Locally)
+* [**Deployment**](#deployment)
+    * [**GitHub Pages**](#using-github-pages)
+    * [**Locally**](run-locally)
 * [**Credits**](#Credits)
   * [**Content and Media**](#Content-and-Media)
   * [**Acknowledgements**](#Acknowledgements)
@@ -219,8 +216,12 @@ On the contact page there is a check box that allows you to subscribe to **Brew 
 
 [W3C Markup Validation](https://validator.w3.org/)
 
-- W3C Markup Validation was used to validate both the HTMl and CSS for this application.
-No Errors were noted.
+W3C Markup Validation was used to validate both the HTMl and CSS for this application.
+- No errors were noted in the CSS 
+- Two errors were noted in the HTML code
+    - unnecessary alt attribute on video 
+    - unnecessary type attribute on script tags<br>
+    
 
 ### **User Story Testing**
 
@@ -261,4 +262,54 @@ A mobile Lighthouse report was completed on **Brew Brewery's** website<br>
 The results were as follows:
 <h2 align=center id="top"><img src="assets/images/lighthousemobile.png" max-height=100px></h2>
 
-#### **Responsive Testing**
+### **Responsive Testing**
+
+### **Desktop Testing**
+-
+    | Page | Responsive| Notes| 
+    --- | --- | ---
+    Home | Y | Fully Responsive.
+    Products | Y | Fully Responsive.  
+    Contact | Y | Fully Responsive.
+
+
+### **Laptop Testing**
+-
+    | Page | Responsive| Notes| 
+    --- | --- | ---
+    Home | Y | Fully Responsive.
+    Products | Y | Fully Responsive.  
+    Contact | Y | Fully Responsive. headings and form appear below image
+
+
+    
+### **Tablet Testing**
+-
+    | Page | Responsive| Notes| 
+    --- | --- | ---
+    Home | Y | Fully Responsive. Navigation bar Turns to hamburger menu
+    Products | Y | Fully Responsive. Navigation bar Turns to hamburger menu , Products appear in 2's instead of 4's
+    Contact | Y | Fully Responsive. headings and form appear below image
+
+
+### **Mobile Testing**
+-
+    | Page | Responsive| Notes| 
+    --- | --- | ---
+    Home | Y | Fully Responsive. Navigation bar Turns to hamburger menu , Logo appears under video ,Footer updated for content to be center aligned 
+    Products | Y | Fully Responsive. Navigation bar Turns to hamburger menu , Products appear in rows of 1 , Footer updated for content to be center aligned 
+    Contact | Y | Fully Responsive. headings and form appear below image, Footer updated for content to be center aligned 
+
+# **Deployment**
+
+### **Using Github Pages**
+
+The live website can be found [here](https://paullally.github.io/Milestone-1/).
+
+### **Run Locally**
+1. Navigate to the GitHub [Repository:](https://github.com/paullally/Milestone-1)
+1. Click the Code drop down menu.
+1. Either Download the ZIP file, unpackage locally and open with IDE (This route ends here) OR Copy Git URL from the HTTPS dialogue box.
+1. Open your developement editor of choice and open a terminal window in a directory of your choice.
+1. Use the 'git clone' command in terminal followed by the copied git URL.
+1. A clone of the project will be created locally on your machine.
