@@ -266,6 +266,10 @@ The results were as follows:
 
 ### **Responsive Testing**
 
+
+<h2 align=center id="top"><img src="assets/images/responsive.png" max-height=100px></h2>
+
+
 ### **Desktop Testing**
 -
     | Page | Responsive| Notes| 
