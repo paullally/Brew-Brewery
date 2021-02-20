@@ -170,32 +170,32 @@ This fufils the user story:
 The Home page is split up into 2 sections:
 - A landing video with and animated logo that appears in the middle of the video.
 - 3 Headings and paragraphs that give information about **Brew Brewery**. The products offered and details about the brewing process used to make the beer.
+- I styled this page like this so when a user visits this page they will have a clear idea of what this website is about and will be able to read relevant information about **Brew Brewery**
 
 ### **Products page**
 The Products page is split up into 2 sections:
-- On the main section of the products page their is 8 unqiue beers. When you hover over these images an overlay appears with the name of the beer and a learn more button.
+- On the main section of the products page there are 8 unqiue beers. When you hover over these images an overlay appears with the name of the beer and a learn more button.
 - When you click the learn more button a modal will pop up which will give you a description off the beer and a link to a website where you can buy the beer.
+- This was done so when a user visits the product page they will have a clear picture of the beers **Brew Brewery** have on offer and are able to learn more about each beer individually when the images are clicked on 
 
 ### **Contact page**
 The Contact page is one section:
-- On the contact page their is a background  image with 2 headings and a contact form on top of this image, Each part of this form is required to be filled.
+- On the contact page there is a background  image with 2 headings and a contact form on top of this image, Each part of this form is required to be filled.
+- I added a background image to the contact page because I provides a nice contrast to the form section.
 
 
 
 ### **Future Features**
 
-Age verification:
-
-When someone loads the website i would haved like to have a page dedicated to verify that they are over the age of 18 to ensure that users know this website is for people who a legally allowed to drink.
-
-Newsletter: 
-
-On the contact page there is a check box that allows you to subscribe to **Brew Brewery's** newsletter.I would have liked to created a program that will send out a monthly newsletter to the users that have subscribe.  
+- Age verification:
+    - When a user loads the website I would haved like to have a page dedicated to verify that the user is over the age of 18 to ensure that users know this website is for people who a legally allowed to drink.
+- Newsletter: 
+    - On the contact page there is a check box that allows you to subscribe to **Brew Brewery's** newsletter.I would have liked to created a program that will send out a monthly newsletter to the users that have  to subscribe to the newsletter.  
 
 ## **Technologies Used** 
 ---
 - ### **Front End Technologies**
-    - HTMl
+    - HTML
     - CSS
     - Javascript
     - [**JQuery**](https://jquery.com/) to simplify DOM manipulation.
@@ -221,8 +221,8 @@ On the contact page there is a check box that allows you to subscribe to **Brew 
 W3C Markup Validation was used to validate both the HTMl and CSS for this application.
 - No errors were noted in the CSS 
 - Two errors were noted in the HTML code
-    - unnecessary alt attribute on video 
-    - unnecessary type attribute on script tags<br>
+    - Unnecessary alt attribute on video 
+    - Unnecessary type attribute on script tags<br>
     
 
 ### **User Story Testing**
@@ -323,9 +323,9 @@ The live website can be found [here](https://paullally.github.io/Milestone-1/).
  - Some parts of the code layout were taken from the MDBoostrap [design block](https://mdbootstrap.com/docs/jquery/design-blocks/) page.
  - The Animation for the logo on the home page was taken from [Animista](https://animista.net/play/entrances).
  - Help with the footer was gotten from [Keep that damn footer at the bottom](https://medium.com/@zerox/keep-that-damn-footer-at-the-bottom-c7a921cb9551).
- - The Modals were inspired by a post from [stackoverflow](https://stackoverflow.com/questions/40645032/creating-multiple-modals-on-a-single-page).
- - The overlay for the products was taken form [github](https://miketricking.github.io/bootstrap-image-hover/)
- - Help with the header scroll was taken from [stackoverflow](https://stackoverflow.com/questions/61760693/bootstrap-4-smart-scroll).
+ - The Modals were inspired by this post from [stackoverflow](https://stackoverflow.com/questions/40645032/creating-multiple-modals-on-a-single-page).
+ - The overlay for the products was taken form this [github repo](https://miketricking.github.io/bootstrap-image-hover/)
+ - Help with the header scroll was taken from this  [stackoverflow](https://stackoverflow.com/questions/61760693/bootstrap-4-smart-scroll).
 
  ## **Content** 
 
