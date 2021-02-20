@@ -30,9 +30,11 @@
 * [**Deployment**](#deployment)
     * [**GitHub Pages**](#using-github-pages)
     * [**Locally**](run-locally)
-* [**Credits**](#Credits)
-  * [**Content and Media**](#Content-and-Media)
-  * [**Acknowledgements**](#Acknowledgements)
+* [**Credits**](#credits)
+     * [**Code**](#code)
+  * [**Content**](#content)
+  * [**Media**](#media)
+  * [**Acknowledgements**](#acknowledgements)
 
 
  # **Brew Brewery**
@@ -308,8 +310,31 @@ The live website can be found [here](https://paullally.github.io/Milestone-1/).
 
 ### **Run Locally**
 1. Navigate to the GitHub [Repository:](https://github.com/paullally/Milestone-1)
-1. Click the Code drop down menu.
-1. Either Download the ZIP file, unpackage locally and open with IDE (This route ends here) OR Copy Git URL from the HTTPS dialogue box.
-1. Open your developement editor of choice and open a terminal window in a directory of your choice.
-1. Use the 'git clone' command in terminal followed by the copied git URL.
-1. A clone of the project will be created locally on your machine.
+2. Click the Code drop down menu.
+3. Download the ZIP file, unpackage locally and open with IDE.
+
+# **Credits**
+
+## **Code**
+ - Some parts of the code layout were taken from the MDBoostrap [design block](https://mdbootstrap.com/docs/jquery/design-blocks/) page.
+ - The Animation for the logo on the home page was taken from [Animista](https://animista.net/play/entrances).
+ - Help with the footer was gotten from [Keep that damn footer at the bottom](https://medium.com/@zerox/keep-that-damn-footer-at-the-bottom-c7a921cb9551).
+ - The Modals were inspired by a post from [stackoverflow](https://stackoverflow.com/questions/40645032/creating-multiple-modals-on-a-single-page).
+ - The overlay for the products was taken form [github](https://miketricking.github.io/bootstrap-image-hover/)
+ - Help with the header scroll was taken from [stackoverflow](https://stackoverflow.com/questions/61760693/bootstrap-4-smart-scroll).
+
+ ## **Content** 
+
+ - Beer names were inspired by a craft beer name generator found [here](https://www.craftbeernamegenerator.com/).
+ - Product descriptions were inspired by beer falovour profiles found [here](https://www.tekutavern.beer/beer-flavor-profiles).
+
+ ## **Media** 
+
+ - All videos and images were taken from [pexels](https://www.pexels.com/)
+ - The beer divider on the home page can be found on [thenounproject](https://thenounproject.com/).
+
+ ## **Acknowledgements**
+
+ Thanks to my Mentor [Chris Quinn](https://github.com/10xOXR) for all the input and support during this project.
+
+ Thanks to my Sister [Claire Lally](https://github.com/ClaireLally8) for all the tips and advice that helped me complete this project.
