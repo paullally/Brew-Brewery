@@ -310,12 +310,40 @@ The results were as follows:
 
 ### **Using Github Pages**
 
-The live website can be found [here](https://paullally.github.io/Milestone-1/).
+This project was developed using the Gitpod IDE, committed to git and pushed to GitHub using the built in function within Gitpod.
+
+To deploy this page to GitHub Pages from its GitHub repository, the following steps were taken:
+
+1. Log into GitHub.
+2. From the list of repositories on the screen, select paullally/Milestone-1.
+3. From the menu items near the top of the page, select Settings.
+4. Scroll down to the GitHub Pages section.
+5. Under Source click the drop-down menu labelled None and select Master Branch
+6. On selecting Master Branch the page is automatically refreshed, the website is now deployed.
+7. Scroll back down to the GitHub Pages section to retrieve the link to the deployed website.
 
 ### **Run Locally**
-1. Navigate to the GitHub [Repository:](https://github.com/paullally/Milestone-1)
-2. Click the Code drop down menu.
-3. Download the ZIP file, unpackage locally and open with IDE.
+
+To clone this project into Gitpod you will need:
+1. A Github account. [Create a Github account here](https://github.com/)
+2. Use the Chrome browser 
+
+Then follow these steps:
+1. Install the [Gitpod Browser Extentions for Chrome](https://www.gitpod.io/docs/browser-extension/)
+2. After installation, restart the browser
+3. Log into [Gitpod](https://gitpod.com) with your gitpod account.
+4. Navigate to the [Project GitHub repository](https://github.com/paullally/Milestone-1)
+5. Click the green "Gitpod" button in the top right corner of the respository
+6. This will trigger a new gitpod workspace to be created from the code in github where you can work locally.
+
+To work on the project code within a local IDE such as VSCode:
+1. Follow this link to the [Project GitHub repository](https://github.com/paullally/Milestone-1).
+2. Under the repository name, click "Clone or download".
+3. In the Clone with HTTPs section, copy the clone URL for the repository. 
+4. In your local IDE open the terminal.
+5. Change the current working directory to the location where you want the cloned directory to be made.
+6. Type ```git clone```, and then paste the URL you copied in Step 3.
+7. Press Enter. Your local clone will be created.
 
 # **Credits**
 
