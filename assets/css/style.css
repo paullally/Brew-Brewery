@@ -53,6 +53,15 @@ section {
 
 }
 
+.container-fluid 
+{
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
 /* headings and paragraphs a and imgs  */
 h1 {
   font-size: 3.75rem;
@@ -236,6 +245,9 @@ footer {
   position: relative;
   text-align: center;
   cursor: default;
+  display: flex;
+  justify-content: center;
+  
 }
 .overlay h2 {
     font-size: 1.8rem!important;
@@ -431,6 +443,12 @@ input {
     color: var(--bk-dgreen) !important;
     position: relative;
     text-align: center;
+    font-weight: 300;
+  }
+  .home-image
+  {
+      display: flex;
+      justify-content: center;
   }
 }
 
