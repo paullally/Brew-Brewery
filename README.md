@@ -313,7 +313,7 @@ The results were as follows:
 ## **Bug Report**
 
 Through testing the **Brew Brewery** website on multiple devices i discovered a bug on the home page where there is an issue loading the video on android devices. Through some research i have found out that this problem could be caused by the autoplay attribute 
- - more information on this issue can be found [here]https://stackoverflow.com/questions/42160528/html5-autoplay-video-in-mobile-device
+ - more information on this issue can be found [here](https://stackoverflow.com/questions/42160528/html5-autoplay-video-in-mobile-device)
 
 # **Deployment**
 
