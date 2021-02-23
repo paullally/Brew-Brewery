@@ -27,6 +27,7 @@
     * [**Manual Testing**](#manual-testing)
       * [**Lighthouse**](#lighthouse)
       * [**Responsive Testing**](#responsive-testing)
+    * [**Bug Report**](#bug-report)
 * [**Deployment**](#deployment)
     * [**GitHub Pages**](#using-github-pages)
     * [**Locally**](run-locally)
