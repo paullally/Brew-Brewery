@@ -307,6 +307,14 @@ The results were as follows:
     Products | Y | Fully Responsive. Navigation bar Turns to hamburger menu , Products appear in rows of 1 , Footer updated for content to be center aligned 
     Contact | Y | Fully Responsive. headings and form appear below image, Footer updated for content to be center aligned 
 
+
+
+
+## **Bug Report**
+
+Through testing the **Brew Brewery** website on multiple devices i discovered a bug on the home page where there is an issue loading the video on android devices. Through some research i have found out that this problem could be caused by the autoplay attribute 
+ - more information on this issue can be found [here]https://stackoverflow.com/questions/42160528/html5-autoplay-video-in-mobile-device
+
 # **Deployment**
 
 ### **Using Github Pages**
