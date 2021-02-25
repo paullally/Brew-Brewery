@@ -47,7 +47,7 @@ Not all craft beer is good beer and finding good craft beer can be hard nowadays
 **Brew Brewery** was created with this in mind to offer customers an insight into our brewing process while also being able to view the products we have on offer and where to buy them.
 
 
-The live website can be found [here](https://paullally.github.io/Milestone-1/).
+The live website can be found [here](https://paullally.github.io/Brew-Brewery/).
 
 *** 
 # **User Experience Design**
@@ -324,7 +324,7 @@ This project was developed using the Gitpod IDE, committed to git and pushed to 
 To deploy this page to GitHub Pages from its GitHub repository, the following steps were taken:
 
 1. Log into GitHub.
-2. From the list of repositories on the screen, select paullally/Milestone-1.
+2. From the list of repositories on the screen, select paullally/Brew-Brewery
 3. From the menu items near the top of the page, select Settings.
 4. Scroll down to the GitHub Pages section.
 5. Under Source click the drop-down menu labelled None and select Master Branch
@@ -341,12 +341,12 @@ Then follow these steps:
 1. Install the [Gitpod Browser Extentions for Chrome](https://www.gitpod.io/docs/browser-extension/)
 2. After installation, restart the browser
 3. Log into [Gitpod](https://gitpod.com) with your gitpod account.
-4. Navigate to the [Project GitHub repository](https://github.com/paullally/Milestone-1)
+4. Navigate to the [Project GitHub repository](https://github.com/paullally/Brew-Brewery)
 5. Click the green "Gitpod" button in the top right corner of the respository
 6. This will trigger a new gitpod workspace to be created from the code in github where you can work locally.
 
 To work on the project code within a local IDE such as VSCode:
-1. Follow this link to the [Project GitHub repository](https://github.com/paullally/Milestone-1).
+1. Follow this link to the [Project GitHub repository](https://github.com/paullally/Brew-Brewery).
 2. Under the repository name, click "Clone or download".
 3. In the Clone with HTTPs section, copy the clone URL for the repository. 
 4. In your local IDE open the terminal.
@@ -378,4 +378,4 @@ To work on the project code within a local IDE such as VSCode:
 
  Thanks to my Mentor [Chris Quinn](https://github.com/10xOXR) for all the input and support during this project.
 
- Thanks to my Sister [Claire Lally](https://github.com/ClaireLally8) for all the tips and advice that helped me complete this project.
+ Thanks to my sister [Claire Lally](https://github.com/ClaireLally8) for all the tips and advice that helped me complete this project.
